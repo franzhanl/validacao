@@ -1,0 +1,126 @@
+html,  body{
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.box-container{
+    width: 1000px;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    width: 420px;
+    
+}
+
+.quebrar-linha {
+    display: flex;
+    flex-direction: column;
+  }
+
+.title *{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.text-white{
+    color: white;
+}
+
+.add-position-relative{
+    position: relative;
+}
+
+.text-error-input{
+    color: red;
+    position: absolute;
+    left: 2px;
+    top: 100%;
+}
+
+.required-fields{
+    font-size: 1.5rem;
+    width: 90%;
+    padding: 10px 0;
+}
+
+.text-from-title{
+    padding-top: 10px;
+    width: 400px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.text-size {
+    font-size: 1.5rem;
+    
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-right: 50px;
+    width: 400px;
+    height: 460px;
+    
+}
+
+.border-black{
+    border-color: black; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-radius: 5px; 
+}
+
+.border-red{
+    border-color: red; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-radius: 5px; 
+}
+
+.border-green{
+    border-color: green; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-radius: 5px; 
+}
+
+.input-size{
+    width: 340px;
+    height: 30px;
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+.btn-enviar{
+    display: block;
+    color: white;
+    background-color: #3CCC87;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+}
+
